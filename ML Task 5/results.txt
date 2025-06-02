@@ -1,0 +1,31 @@
+Decision Tree Accuracy: 0.8439024390243902
+
+Decision Tree Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.74      0.82       102
+           1       0.78      0.95      0.86       103
+
+    accuracy                           0.84       205
+   macro avg       0.86      0.84      0.84       205
+weighted avg       0.86      0.84      0.84       205
+
+
+Random Forest Accuracy: 0.9853658536585366
+
+Random Forest Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.99       102
+           1       1.00      0.97      0.99       103
+
+    accuracy                           0.99       205
+   macro avg       0.99      0.99      0.99       205
+weighted avg       0.99      0.99      0.99       205
+
+
+Decision Tree Cross-Validation Scores: [0.90853659 0.87804878 0.89634146 0.90853659 0.84146341]
+Decision Tree CV Mean: 0.8865853658536587 ± 0.025170448098232087
+
+Random Forest Cross-Validation Scores: [0.99390244 0.9695122  1.         0.98780488 0.95731707]
+Random Forest CV Mean: 0.9817073170731707 ± 0.015900493671225986
